@@ -1,0 +1,349 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #59423A;
+    width: 100%;
+}
+
+.header-utama{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-utama .gambar{
+    width: 10vw;
+    height: 20vh;
+    margin-left: 10vw;
+    margin-top: 12vh;
+}
+
+.header-utama .gambar img{
+    width: 100%;
+    height: 100%;
+}
+
+.header-right{
+    margin-left: 10vw;
+    margin-right: 12vw;
+    padding-top: 10vh;
+}
+
+header .header-right ul{
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    font-size: 1.8vw;
+}
+
+header .header-right ul li{
+    list-style: none;
+    color: white;
+    width: 20%;
+    position: relative;
+    text-align: center;
+}
+
+header .header-right ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header .header-right ul li ul li{
+    width: 100%;
+}
+
+header .header-right ul li:hover{
+    color: black;
+    background-color: #fff;
+    border-radius: 1.2vh;
+}
+
+header .header-right ul li ul{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+header .header-right ul li ul li{
+    padding: 1.5vw 0vh;
+    background-color: #6a6a6a;
+    font-size: 1.7vw;
+}
+
+header .header-right ul li:hover ul{
+    display: block;
+   
+}
+
+
+/* isi */
+
+.judul-atas{
+    margin-top: 7vh;
+    margin-left: 12.2vw;  
+}
+
+#judul{
+    font-size: 4vw;
+    color: ivory;
+}
+
+#judul a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#judul-sub{
+    margin-top: 2vh;
+    font-size: 2vw;
+    color: ivory;
+}
+
+#garis{
+    margin-right: 12.2vw;
+}
+
+hr{
+    display: block;
+  border-width: 0.7vh;
+}
+
+.detail{
+    background-color: whitesmoke;
+    height: 75vh;
+    margin-top: 10vh;
+    display: flex;
+}
+
+.gambar{
+    margin-left: 12.2vw;
+    margin-top: 12.1vh;
+    margin-bottom: 6.1vh;
+}
+
+.tulisan{
+    margin-left: 5.5vw;
+}
+
+.bagian-atas{
+    margin-top: 11vh;
+    list-style: none;
+    font-size: 2.3vw;
+}
+
+.bagian-atas{
+    display: flex;
+}
+
+.spek{
+    background-color: whitesmoke;
+}
+
+#kanan{
+    margin-left: 23.5vw;
+}
+
+
+.plus {
+  background-color: whitesmoke;
+  color: black;
+
+  font-size: 2vw;
+  border: none;
+  cursor: pointer;
+}
+
+.tabel-isi{
+  display: none;
+    width: 39vw;
+}
+
+.penjelasan{
+    font-size: 1.2vw;
+}
+
+.isi-spek{
+    box-shadow:  0px 4vh 4vh 0px rgba(179, 179, 179, 0.5);
+    width: 39vw;
+    height: 40v;
+}
+
+table {
+    border-collapse:separate;
+    font-size: 1.1vw;
+}
+  
+td{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  
+td:nth-child(odd) {
+    background-color:rgb(218, 218, 218);
+}
+
+.muncul {
+    display: block;
+}
+
+.gambar img{
+   width: 36vw;
+}
+
+/* footer */
+
+footer{
+    background-color: #6a6a6a;
+    color: white;
+}
+
+.footer-dalem{
+    display: flex;
+    justify-content: space-around;
+}
+
+.judul{
+    padding-top: 2.3vh;
+    font-size: 1.3vw;
+}
+
+#copyright{
+    padding-top: 11.4vh;
+    font-size: 1.3vw;
+    padding-bottom: 5vh;
+}
+
+.isi{
+    font-weight: 100;
+    font-size: 1.2vw;
+    padding-top: 3vh;
+}
+
+.isi p{
+    padding: 0.7vh;
+}
+
+#logo{
+    width: 30vh;
+    height: 10.8vh;
+}
+
+#logo a{
+    padding-top: 2.3vh;
+    font-size: 1.8vw;
+    color: white;
+    text-decoration: none;
+    padding-right: 1.5vh;
+}
+
+@media(max-width: 500px){
+    .header-utama .gambar{
+        width: 16vw;
+        height: 10vh;
+        margin-top: 5vh;
+    }
+    .Judul-isi #border{
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        width: 85vw;
+        border-bottom:1vh solid white;
+    }
+    .Judul-isi #judul{
+        margin-top: 5vh; 
+    }
+    .header-right{
+        padding-top: 0vh;
+    }
+    header{
+        height: 12vh;
+    }
+    .detail{
+        background-color: whitesmoke;
+        height: 42vh;
+        margin-top: 2vh;
+    }
+    .gambar{
+        margin-top: 8vh;
+        margin-left: 7vw;
+    }
+    .bagian-atas{
+        margin-top: 8vh;
+        font-size: 3vw;
+    }
+    .plus {
+        font-size: 3vw;
+    }
+    .penjelasan{
+        font-size: 1.8vw;
+    }  
+    table {
+        font-size: 1.7vw;
+    }
+    .tabel-isi{
+        width: 45vw;
+    }
+    .isi-spek{
+        width: 45vw;
+        height: 40v;
+    }
+
+
+  
+   
+    footer{
+        background-color: #6a6a6a;
+        color: white;
+        height: 29.2vh;
+    }
+    
+    .footer-dalem{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5vh;
+    }
+    
+    .judul{
+        padding-top: 2.3vh;
+        font-size: 2vw;
+       
+       
+    }
+    
+    #copyright{
+        padding-top: 5vh;
+        font-size: 1.8vw;
+        padding-bottom: 2vh;
+    }
+    
+    .isi{
+        font-weight: 100;
+        font-size: 2vw;
+        padding-top: 3vh;
+    }
+    
+    .isi p{
+        padding: 0.4vh;
+    }
+    
+    
+    #logo{
+        width: 11vh;
+        height: 10.8vh;
+    }
+    
+    #logo a{
+        padding-top: 2.3vh;
+        font-size: 2vw;
+        color: white;
+        text-decoration: none;
+        padding-right: 1vh;
+    }
+    
+}

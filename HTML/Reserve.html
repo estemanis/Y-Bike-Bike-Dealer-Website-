@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/Reserve.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css "
+    />
+    <title>Y_BIKE || RESERVE</title>
+    <link rel="icon" href="../Images/Logo_Y-BIKE.png" type="image/icon type">
+  </head>
+  <body>
+
+
+    <header>
+      <div class="header-utama">
+        <div class="gambar">
+          <a href="Home.html"><img src="../Images/Logo_Y-BIKE.png" alt="Logo"></a>
+        </div>
+
+        <div class="header-right">
+          <ul>
+            <li>
+              Product
+              <ul>
+                <li><a href="Kawasako.html">Kawasako</a></li>
+                <li><a href="Vixian.html">Vixian</a></li>
+              </ul>
+            </li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Reserve.html">Reserve</a></li>
+            <li><a href="Login.html">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+
+
+    <section class="tengah-reserve">
+      <div id="image-slider-container">
+        <button id="prev">&laquo;</button>
+  
+        <div id="image-slider">
+          <div id="slider">
+            <!-- div.images*5>img-->
+            <div class="images">
+              <img src="../Images/bagian1/1.png" alt="" />
+              <p>2021 Ninja ZX-6R ABS</p>
+            </div>
+            <div class="images">
+              <img src="../Images/bagian1/2.png" alt="" />
+              <p>Z1000</p>
+            </div>
+            <div class="images">
+              <img src="../Images/bagian1/3.png" alt="" />
+            <p>W800</p>
+            </div>
+            <div class="images">
+              <img src="../Images/bagian1/4.png" alt="" />
+            <p>Vulcan S</p>
+            </div>
+            <div class="images">
+              <img src="../Images/bagian1/5.png" alt="" />
+            <p>Ninja H2</p>
+            </div>
+            <div class="images">
+              <img src="../Images/bagian1/6.png" alt="" />
+              <p>W800 Cafe</p>
+            </div>
+            <div class="images">
+              <img src="../Images/bagian1/7.png" alt="" />
+              <p>Ninja ZX-10R</p>
+            </div>
+            <div class="images">
+              <img src="../Images/bagian1/8.png" alt="" />
+           <p>D-Tracker</p>
+            </div>
+            <div class="images">
+              <img src="../Images/bagian1/9.png" alt="" />
+            <p>W175TR</p>
+            </div>
+            <div class="images">
+              <img src="../Images/bagian2/1.png" alt="" />
+            <p>Vixion</p>
+            </div>
+            <div class="images">
+              <img src="../Images/bagian2/2.png" alt="" />
+            <p>Vixion R</p>
+            </div>
+            <div class="images">
+              <img src="../Images/bagian2/3.png" alt="" />
+            <p>Vixion Monster Energy Yamaha Motogp Edition</p>
+            </div>
+          </div>
+        </div>
+  
+        <button id="next">&raquo;</button>
+      </div>
+  
+  
+  
+      <div class="content-container">
+        <div class="container">
+          <div class="header">
+            <h2>Reserve Our Product</h2>
+          </div>
+          <form action="" class="form" id="form" onsubmit="return SubmitForm()">
+            <div class="form-control">
+              <label>Username</label
+              ><input type="text" placeholder="florinpop17" id="username" />
+              <small>Error message</small>
+            </div>
+            <div class="form-control">
+              <label>Address</label
+                ><input type="address" placeholder="Jl. Kepala Satu" id="address" />
+                <small>Error message</small>
+              </div>
+              <div class="form-control">
+                <label>Postal Code</label
+                  ><input type="postal-code" placeholder="123456" id="postal-code" />
+                  <small>Error message</small>
+                </div>
+              <div class="form-control">
+                <label>Phone Number</label
+                  ><input type="phone" placeholder="628123456789" id="phone" />
+                  <small>Error message</small>
+                </div>
+
+                
+            <div class="form-control">
+                <div>Color</div>
+              <div>
+                
+                <select name="color" id="color">
+                  <option value="" hidden>Choose Color</option>
+                  <option value="Red">Red</option>
+                  <option value="Green">Green</option>
+                  <option value="Purple">Purple</option>
+                  <option value="Blue">Blue</option>
+                  <option value="Yellow">Yellow</option>
+                </select>
+              
+                <small>Error message</small>  
+              </div><br>
+
+              <div class="form-control"> Quantity
+                <input type="number" name="" id="quantity" placeholder="Quantity (1 - 100) " min="1">
+                <small>Error message</small>
+              </div>
+
+
+            </div>
+            
+
+
+            <button class="buttonSubmit" type="submit">Buy</button>
+          </form>
+        </div>
+      </div>
+
+    </section>
+
+    
+
+
+
+
+
+
+
+
+    <footer>
+      <section class="footer-dalem">
+        <div id="bag1">
+          <div class="judul"><h2>Y-BIKE.com</h2></div>
+
+          <div class="isi">
+            <p>
+              Y-Bike is a biggest Dealer<br />motorcycle in Indonesia,<br />with
+              more than 250 branches.<br />Y-Bike is always innovating and<br />providing
+              the best service<br />for Indonesian people.
+            </p>
+          </div>
+
+          <div id="copyright">
+            <p>&copy;2021, Y-BIKE.com</p>
+          </div>
+        </div>
+        <div id="bag2">
+          <div class="judul"><h2>Information</h2></div>
+
+          <div class="isi">
+            <p>Terms</p>
+            <p>Privacy</p>
+            <p>Affliate</p>
+            <p>Career</p>
+            <p>FAQ</p>
+          </div>
+        </div>
+        <div id="bag3">
+          <div class="judul"><h2>Account</h2></div>
+
+          <div class="isi">
+            <p>My Account</p>
+            <p>View Dealer</p>
+            <p>My Wishlist</p>
+            <p>Order Status</p>
+            <p>Track My Order</p>
+          </div>
+        </div>
+        <div id="bag4">
+          <div class="judul">
+            <h2>Contact</h2>
+          </div>
+
+          <div class="isi">
+            <p>Phone : +62 856-8152-1123</p>
+            <p>Email : CS_@ybike.net</p>
+            <p>Address: 123 Griya Kencana</p>
+          </div>
+
+          <div id="logo">
+            <a
+              href="https://www.facebook.com/"
+              class="fa fa-facebook"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              class="fa fa-instagram"
+              target="_blank"
+            ></a>
+            <a
+              href="https://twitter.com/"
+              class="fa fa-twitter"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.linkedin.com/feed/"
+              class="fa fa-linkedin"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="../JavaScript/jquery.js"></script>
+    <script src="../JavaScript/reserve.js"></script>
+  </body>
+</html>
